@@ -64,7 +64,7 @@ TIMER:
         LDR     R3, =SW_BASE
         LDR     R4, [R3]
 
-       //SW2 has priority //
+       //SW1 has priority //
         TST     R4, #4
         BNE     COUNT_DOWN
 
@@ -122,3 +122,4 @@ SEG:
         .word 0x3F,0x06,0x5B,0x4F
         .word 0x66,0x6D,0x7D,0x07
         .word 0x7F,0x6F
+
