@@ -43,6 +43,7 @@ The code tracks the previous state of KEY0 in register R7. A button press is rec
 In short, the program implements edge-detection debouncing, which is sufficient for basic control in CPUlator but less robust than confirm-after-delay debouncing used in real hardware.
 
 ## Part 3: YouTube video link:
+### https://youtu.be/AGwPmC6K0Ck
 
 
 
